@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Translate</title> 
+    <link rel="stylesheet" href="translate1.css" />
+</head>
+<body>
+ <div class="box"><h1>Text <span>Translator</span></h1>
+    <p>by Mayank</p></div>
+        <div class="container">
+          <div class="wrapper">
+            <div class="text-input">
+              <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+              <ul class="controls">
+                <li class="row from">
+                  <div class="icons">
+                    <ion-icon id="from" name="volume-medium-outline"></ion-icon>
+                    <ion-icon id="from" name="copy-outline"></ion-icon>
+                  </div>
+                  <select></select>
+                </li>
+                <li class="exchange">
+                  <ion-icon name="swap-vertical"></ion-icon>
+                <li class="row to">
+                  <select></select>
+                  <div class="icons">
+                    <ion-icon id="to" name="volume-medium-outline"></ion-icon>
+                    <ion-icon id="to" name="copy-outline"></ion-icon>
+                  </div>
+                </li>
+              </ul>
+              <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+            </div>
+          </div>
+          <button>Translate it</button>
+        </div> 
+
+<script src="translate.js"></script>
+
+</body>
+</html>
